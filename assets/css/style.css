@@ -3,7 +3,7 @@
 }
 
 body {
-	background: url(../images/seigaiha.png);
+	background: url(../images/skulls.png);
 	font-size: 18px;
 	line-height: 34px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -21,6 +21,10 @@ h1, h2, h3, p {
 	margin-bottom: 20px;
 }
 
+p{
+	font-family: 'Zilla Slab', serif;
+}
+
 p:last-child {
 	margin-bottom: 0;
 }
@@ -32,6 +36,7 @@ h1, h2, h3 {
 }
 
 h1 {
+	font-family: 'Cinzel', serif;
 	font-size: 30px;
 	line-height: 49px;
 	border-bottom: 3px solid #ddd;
@@ -39,6 +44,7 @@ h1 {
 }
 
 h2, h3 {
+	font-family: 'Cinzel', serif;
 	font-size: 22px;
 }
 
@@ -54,11 +60,11 @@ h2, h3 {
 }
 
 #logo {
-	width: 300px;
+	width: 330px;
 	height: 90px;
 	background: #9a342a;
 	float: left;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Cinzel', serif;
 	text-align: center;
 	line-height: 90px;
 	color: #fff;
@@ -73,6 +79,7 @@ nav {
 }
 
 nav a {
+	font-family: 'Cinzel', serif;
 	color: #999;
 	text-decoration: none;
 	margin-left: 15px;
@@ -215,4 +222,10 @@ input[type=submit] {
 	font-size: 18px;
 	padding: 10px 30px;
 	cursor: pointer;
+}
+
+a:hover {
+	font-size: 20px;
+	font-weight: bold;
+	color: #9a342a;
 }
